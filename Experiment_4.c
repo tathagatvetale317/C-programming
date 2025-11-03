@@ -1,3 +1,8 @@
+/*NAME: Tathagat GAUTAM VETALE
+CLASS: CIVIL BRANCH
+DIVISION: B
+UIN NO: 251C025 
+*/
 #include <stdio.h>
 
 int main() {
