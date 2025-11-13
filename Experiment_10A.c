@@ -6,24 +6,18 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, sum;
-    int *p1, *p2;   // pointer variables
+    double num1, num2, sum;
+    double *p1, *p2;
 
-    // Input two numbers
-    printf("Enter first number: ");
-    scanf("%d", &a);
+    p1 = &num1;
+    p2 = &num2;
+    
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", p1, p2);
 
-    printf("Enter second number: ");
-    scanf("%d", &b);
-
-    // Assign addresses of variables to pointers
-    p1 = &a;
-    p2 = &b;
-
-    // Add the values pointed to by p1 and p2
     sum = *p1 + *p2;
 
-    printf("Sum = %d\n", sum);
+    printf("The sum is: %f\n", sum);
 
     return 0;
 }
